@@ -11,4 +11,4 @@ serviceAccount:
   name: bookinfo-reviews
 
 spinnaker:
-  max_version_history: 2
+  max_version_history: "2"
