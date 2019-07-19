@@ -1,6 +1,6 @@
 global:
   name: reviews
-  version: v1.1.13
+  version: v1.1.1333333333
 
 app:
   image: docker.io/istio/examples-bookinfo-reviews-v3:1.15.0
