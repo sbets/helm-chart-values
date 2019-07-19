@@ -1,0 +1,15 @@
+global:
+  name: details
+  version: v1.1.0
+
+app:
+  image: docker.io/istio/examples-bookinfo-details-v1:1.15.0
+  imagePullPolicy: IfNotPresent
+  containerPort: 9080
+  replicaCount: 3
+
+serviceAccount:
+  name: bookinfo-details
+
+spinnaker:
+  max_version_history: "2"
