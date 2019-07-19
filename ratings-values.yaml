@@ -1,0 +1,15 @@
+global:
+  name: ratings
+  version: v1.1.0
+
+app:
+  image: docker.io/istio/examples-bookinfo-ratings-v1:1.15.0
+  imagePullPolicy: IfNotPresent
+  containerPort: 9080
+  replicaCount: 3
+
+serviceAccount:
+  name: bookinfo-ratings
+
+spinnaker:
+  max_version_history: "2"
