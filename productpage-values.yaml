@@ -1,6 +1,6 @@
 global:
   name: productpage
-  version: v1.1.3
+  version: v1.1.11
 
 app:
   image: docker.io/istio/examples-bookinfo-productpage-v1:1.15.0
