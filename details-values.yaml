@@ -6,7 +6,7 @@ app:
   image: docker.io/istio/examples-bookinfo-details-v1:1.15.0
   imagePullPolicy: IfNotPresent
   containerPort: 9080
-  replicaCount: 3
+  replicaCount: 1
 
 serviceAccount:
   name: bookinfo-details
