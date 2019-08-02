@@ -1,9 +1,9 @@
 global:
   name: reviews
-  version: reviews-1
+  version: reviews-2
 
 app:
-  image: docker.io/istio/examples-bookinfo-reviews-v1:1.15.0
+  image: docker.io/istio/examples-bookinfo-reviews-v2:1.15.0
   imagePullPolicy: IfNotPresent
   containerPort: 9080
   replicaCount: 2
